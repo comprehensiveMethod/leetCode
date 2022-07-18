@@ -1,10 +1,12 @@
-import WordPattern.Solution;
+
+import PalindromeNumber.Solution;
+
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        String pattern = "aaa", s = "aa aa aa aa";
         Solution solution = new Solution();
-        System.out.println(solution.wordPattern(pattern,s));
+        System.out.println(solution.isPalindrome(122));
 
     }
 }
